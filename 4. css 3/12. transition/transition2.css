@@ -1,0 +1,55 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 900px;
+    margin: 10px auto;
+    border: 5px solid black;
+}
+
+ /* keadaan awal */
+.kotak{            
+    width: 100px;
+    height: 100px;
+    background-color: salmon;
+    /* transition: all 1s ease-in; */
+   /* transition: margin-left 1s;  jadi bisa membuat transisi satu persatu atau all */
+}
+
+.kotak1 { 
+    transition: all 1s ease;
+}
+.kotak2 { 
+    transition: all 1s ease-in;
+}
+
+
+ /* keadaan akhir */
+.container:hover .kotak{        /* dibaca : pada saat kontennya saya hover, lalu kotak didalam nya bergeser. */
+    transform: rotate(720deg);  /* rotate : memutar */
+    margin-left: 800px;
+    background-color: blue; /* setelah rotate 180 derajat akan berpindah warna menjadi blue */
+} 
+
+/*
+- penulisan transition : [property] <durasi> [fungsi] [delay]; 
+- durasi wajib ditulis. 
+- durasi mempunya satuan s / ms.
+- simpan property transition selalu dikeadaan awal seperti pada baris 11.
+*/
+
+/* 
+FUNGSI TRANSITION :
+    - fungsi transisi disebut juga timing function.
+    - beberapa nilai fungsi transition :
+        ease
+        ease-in
+        ease-out
+        ease-in-out
+        linear
+        cubic-bezier9w,x,y,z)
+
+*/

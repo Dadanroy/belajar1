@@ -1,0 +1,70 @@
+
+
+/* ============================================================================ */
+ 
+.home { 
+    background-color:burlywood;
+    padding: 10px;
+    text-align:left;
+    font-display:;
+    line-height: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.home h1 {
+    font-weight: bold;
+    font-size: 30px;
+    color: crimson;
+}
+
+.home h2 {
+    font-weight: normal;
+    font-size: 18px;
+    text-align: left;  
+}
+.home h2 a{
+    text-decoration: none; /* menghilangkan garis bawah link */
+    color: crimson;
+
+}
+.home h2 a:hover{
+    background-color:rgb(88, 47, 55);
+    color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

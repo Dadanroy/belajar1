@@ -1,0 +1,25 @@
+div{
+    width: 300px;
+    height: 300px;
+    background-color: #39b54a;
+    margin: 50px auto;
+    /* box-shadow: 5px 5px 5px black; */
+     box-shadow: 5px 5px 5px rgba(0,0,0,.75); /* rgba untuk mengatur warna  */
+}
+
+
+
+/* 
+MEMBUAT properti BOX-SHADOW :
+
+box-shadow : <x-offset> <y-offset> <blur> <color>
+
+penjelasan :
+- x-offset : untuk mengatur jarak bayangan pada sumbu horizontal. 
+    nilainya nomerik jadi kalo 10px  maka dia akan bergerak ke kanan sebanyak 10px,
+    jika dikasih -10px maka akan bergerak ke sebelek kiri elemen.
+
+y-offset : secara vertikal
+
+
+*/

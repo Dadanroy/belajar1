@@ -1,0 +1,23 @@
+body{
+    /*  
+    /* 1 bacground-color */
+     /* background-color: sandybrown;  */
+
+    /* 2. background-image */
+     /* background-image: url(backgroundfoto/1.jpg);  */
+
+    /* 3. background-repeat : x, y, no-repeat*/
+    /* background-repeat: repeat-x;  menghasilkan gambar dengan mengulang terus menerus secara horizontal dari kiri kekanan.*/ 
+    /* background-repeat: repeat-y; gambar akan diulang secara vertikal dari atas kebawah. */ 
+    /* background-repeat: no-repeat;  akan menampilkan gambar single atau tidak diulang. */
+    /* background-repeat: repeat;  untuk menampilkan sebuah gambar secara berulang, artinya gambar akan terus diulang sampai memenuhi ruang elemen.  */
+
+    /* 4. background-position : top left, top center, top right,center left, dll */
+     /* background-position: center;  */
+
+    
+
+
+    /* semua yang diatas bisa disingkat menjadi : */
+     background:brown url(backgroundfoto/1.jpg) top left repeat; 
+}

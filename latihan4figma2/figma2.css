@@ -1,0 +1,161 @@
+*{
+    text-decoration:none;
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;  
+}
+
+.wrapper{
+    width: 90%; /* mengatur panjang class wrapper  */
+    background-color: #ffffff;
+    margin: auto;  /*supaya posisi margin dari class wrapper di area center */
+    position: relative; /*supaya keluar dari default position */
+}
+.logo a{
+    font-size: 32px;
+    font-weight: bold;
+    float: left;
+    font-family: 'Nunito';
+    color: #FBB667;
+}
+
+span{
+    font-size: 32px;
+    font-weight: bold;
+    font-family: 'Nunito';
+    color: #0F214F;
+}
+
+ .logo{
+    position: absolute;
+    width: 153px;
+    height: 44px;
+    left: 52px;
+    top: 26px;
+} 
+.menu{
+    position: absolute;
+    width: 336px;
+    height: 25px;
+    left: 541px;
+    top: 39px;
+
+}
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color:#F8F0DF;
+}
+nav ul {
+    list-style-type: none ;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;  
+    
+    
+}
+nav ul li {
+    float: left; /* mengatur posisi elemen jadi ke kiri  */
+
+}
+nav ul li a{
+    color: #FBB667;
+    font-family: 'Nunito';
+    font-weight: 18;
+    font-weight: bold;
+    
+    padding: 0px 16px 0px 16px;
+
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+.bedawarna{
+    color: #B6B6B6;
+}
+
+a.tombol{
+    background: #FBB667;
+    border-radius: 100px;
+    color: #ffffff;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 34px 10px 34px;
+}
+a.tombol:hover{
+    background:#0F214F;
+    text-decoration: none;
+}
+
+.booking{
+    position: absolute;
+    width: 172px;
+    height: 45px;
+    left: 1180px;
+    top: 35px;
+    /* position: absolute;
+    width: 104px;
+    height: 25px;
+    left: 1214px;
+    top: 45px; */
+
+}
+
+
+
+
+/*  ====================akhir navbar================== */
+
+section{
+    margin: auto;
+    /* display: flex; */
+}
+.kolom{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+h2{
+    font-family: 'Crimson Text';
+    color:#0F214F;
+    font-size: 76px;
+    font-weight:normal;
+    line-height: 91.7%;
+    position: absolute;
+    width: 620px;
+    height: 140px;
+    left: 52px;
+    top: 299px;
+}
+
+p{
+    font-family: 'Nunito';
+    font-style: normal;
+    color:#3D3D3D;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 145.2%;
+    position: absolute;
+    width: 597px;
+    height: 52px;
+    left: 58px;
+    top: 458px;
+}
+img{
+    position: absolute;
+width: 674.17px;
+height: 596.92px;
+left: 701.8px;
+top: 148.42px;
+}

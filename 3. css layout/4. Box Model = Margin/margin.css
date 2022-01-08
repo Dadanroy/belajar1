@@ -1,0 +1,36 @@
+ /* div{ 
+    display: inline-block;
+ }
+*/
+
+ .satu{
+     width: 200px;
+     height: 200px;
+     background-color: lightgreen; 
+     margin-right: 30px; 
+     /*  
+     margin-left: 100px;
+     margin-top: 30px;
+     margin-bottom: 150px;
+     margin-right: 50px;
+     */
+ }
+ .dua{
+     width: 100px;
+     height: 100px;
+     background-color: lightblue;
+      margin-left: auto; /*auto berguna untuk membuat posisi margin di tengah halaman  */
+     margin-right:auto;
+ }
+
+ .tiga{
+     width: 50px;
+     height: 50px;
+     background-color: violet;
+      margin: 10px 20px 30px 40px; /*bacanya atas -> kanan -> bawah -> kiri / serah jarum jam */
+ }
+
+
+ /* 
+ margin     : area transparan di sekitar kotak.
+  */

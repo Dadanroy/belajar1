@@ -1,0 +1,29 @@
+
+body{ /* mengatur supaya tidak ada margin dan padding pada body */
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+
+.navbar{
+    background:white;
+    height: 85px;
+    display: flex;  /* supaya elemen berubah posisi menjadi row/ baris */
+    padding:0 10%; 
+    align-items: center; /* supaya elemen berada ditengah2 atas bawah secara vertical di div  */
+    justify-content: space-between; /* supaya konten navbar berada di kanan dan kiri */
+    box-shadow: 0 4px 8px 0 rgba(1,1,1, 0.1); /* membuat bayangan pada navbar */
+}
+.navbar > h1 {  /* merubah style h1 pada class navbar */
+    font-size: 20px;
+    font-weight: bold;
+    
+   
+}
+.nav-menu{
+    display: flex;
+    gap: 30px; /* membuat jarak otomatis antar elemen */
+    
+}

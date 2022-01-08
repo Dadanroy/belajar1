@@ -1,0 +1,38 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 900px;
+    margin: 10px auto;
+    border: 5px solid black;
+}
+ /* keadaan awal */
+.kotak{            
+    width: 100px;
+    height: 100px;
+    background-color: salmon;
+    /* transition:1s;  */
+    transition: margin-left 1s; /* jadi bisa membuat transisi satu persatu atau all */
+}
+
+ /* keadaan akhir */
+.container:hover .kotak{        /* dibaca : pada saat kontennya saya hover, lalu kotak didalam nya bergeser. */
+    transform: rotate(720deg);  /* rotate : memutar */
+    margin-left: 800px;
+    background-color: blue; /* setelah rotate 180 derajat akan berpindah warna menjadi blue */
+} 
+
+
+
+/* 
+- properti transition memungkinkan kitadapat mengubah niulai dari properti html secara halus.
+- transisi yaitu pergerakan.
+
+- penulisan transition : [property] <durasi> [fungsi] [delay]; 
+- durasi wajib ditulis. 
+- durasi mempunya satuan s / ms.
+- simpan property transition selalu dikeadaan awal seperti pada baris 11.
+*/

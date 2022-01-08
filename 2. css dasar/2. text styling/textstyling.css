@@ -1,0 +1,48 @@
+/* ---------------------------------------------------------------------------------------------------------------------------- */
+/* 1 color */
+
+h1{
+    font-size: 50px;  /* mengatur ukuran huruf */
+    /* color: skyblue; mengganti warna menggunakan nama color  */
+    /* color: #ffffff; mengganti warna menggunakan hexadesimal */
+    color: rgb(11, 225,101); /* mengganti warna menggunakan RGB */
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------- */
+
+/* 2. text align : left,right,center,justify */
+/* 3. text-indent : px, % */
+/*  6. letter-spacing : normal, px . untuk mengatur jarak antar huruf */
+/*  7. word-spacing : normal, px . untuk mengatur jarak antar kata*/
+
+p{
+    /* text-align: center; */
+    text-indent: 100%; /*maka jarak akan berubah dari ujung awal tulisan*/
+    letter-spacing: 5px; /*untuk mengatur jarak antar huruf*/
+     word-spacing: 10px; /*untuk mengatur jarak antar kata*/
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------- */
+
+/* 4. text-decoration : none, underline, overline, line-through */
+
+h2{
+    /* text-decoration: overline; untuk memberi garis di atas teks  */
+    /* text-decoration: none; */
+     text-decoration: underline; /*  untuk memberi garis bawah pada teks  */
+    /*  text-decoration: line-through; /*  untuk memberi coretan pada teks */
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------- */
+
+/* 5. text-transform : none, lowercase, uppercase, capitalize*/
+
+h3{
+    /* text-transform: uppercase; memaksa huruf besar semua */
+    /* text-transform: none; */
+    /* text-transform: lowercase; untuk memakasa huruf kecil semua  */
+    /* text-transform: capitalize; /*untuk memaksa huruf diawal kalimat besar semua */
+}
+
+
+    

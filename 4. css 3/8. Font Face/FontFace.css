@@ -1,0 +1,12 @@
+@font-face{
+     font-family: "KaushanScript"; /* Penamaan bebas */
+    src:url('KaushanScript-Regular.otf') format('truetype'); /* format truetype yaitu format yg biasa dipakai otf/ttf. */
+}
+h1{
+    font-size: 100px;
+    text-align: center;
+    font-family: "KaushanScript",arial;
+} 
+
+
+/* file format WOFF /WOFF2 sangat disrankan untuk file font karena akan mempercepat loading masuk web kita. */

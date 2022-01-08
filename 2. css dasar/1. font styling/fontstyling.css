@@ -1,0 +1,17 @@
+/* 1 font family / mengganti tipe font */
+h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   line-height: 50px;  /* line height / jarak antar spasi*/
+}
+
+/*  font size : px, %, em  */
+h2{
+    font-size: 50px;
+
+}
+h3{
+    font-variant: small-caps;
+}

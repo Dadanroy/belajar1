@@ -1,0 +1,29 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+- flexbox hanya dapat mengatur 1 dimensi saja baik itu baris atau kolom.
+- container     : pembungkus.
+- items         : elemen2 yang didalam pembungkus.
+- main axis     : mengatur elemen2 sejajar secara horizontal.
+- cross axis    : jika ingin mengubah misal horizontal ke vertical bisa menggunakan cross axis.
+- main size     : penyebutan ukuran dari container nya.
+- cross size    :  penyebutan ukuran dari colomnya.
+- main start    : untuk menentukan awal dari elemennya secara horizontal.
+- main end      : untuk menentukan akhirr dari elemennya secara horizontal.
+- cross start   : untuk menentukan awal dari elemenya secara vertical.
+- cross end     : untuk menentukan akhir dari elemennya secara vertical.
+*/

@@ -1,0 +1,88 @@
+
+body{ /* mengatur supaya tidak ada margin dan padding pada body */
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Carter One', cursive;
+}
+/* AWAL NAVBAR */
+.navbar{
+    background: #FDFCE5;
+    height: 85px;
+    display: flex;  /* supaya elemen berubah posisi menjadi row/ baris */
+    padding:0 8%; 
+    align-items: center; /* supaya elemen berada ditengah2 atas bawah secara vertical di div  */
+    justify-content: space-between; /* supaya konten navbar berada di kanan dan kiri */
+    box-shadow: 0 2px 4px 0 rgba(1,1,1, 0.1); /* membuat bayangan pada navbar */
+}
+.navbar > h1 {  /* merubah style h1 pada class navbar */
+    font-size: 20px;
+    font-weight: bold;
+}
+.nav-menu{
+    display: flex;
+    gap: 30px; /* membuat jarak otomatis antar elemen */ 
+    color: #22577A;
+    font-family: 'Roboto', sans-serif;
+}
+/* akhir navbar  */
+/* awal jumbotron */
+.hero-container{
+    display: flex;
+    height: 480px;
+    padding:0 10%; 
+    background: #FDFCE5;
+}
+
+.hero-container > img {
+    width: 441px;
+    height: 424px;
+    align-self: center; /* supaya elemen berada di tengah */
+} 
+
+/* awal about */
+.about{
+    display: flex;
+    height: 568px;
+    padding:0 10%; 
+    background: #22577A;
+    font-family: 'Anton', sans-serif;
+}
+.about > h1 {
+    color: #FDFCE5;
+    margin: auto;
+    padding-bottom: 450px;
+}
+/* akhir about */
+
+/* awal work */
+.work{
+    display: flex;
+    height: 568px;
+    padding:0 10%; 
+    background: #FDFCE5;
+    font-family: 'Anton', sans-serif;
+}
+.work > h1 {
+    color: #22577A;
+    margin: auto;
+    padding-bottom: 450px;
+
+}
+
+/*  akhir work */
+
+/* awal contact */
+.contact {
+    display: flex;
+    height: 568px;
+    padding:0 10%; 
+    background: #22577A;
+    font-family: 'Anton', sans-serif;
+}
+.contact > h1 {
+    color: #FDFCE5;
+    margin: auto;
+    padding-bottom: 450px;
+}
+/* akhir contact */

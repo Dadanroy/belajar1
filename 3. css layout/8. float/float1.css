@@ -1,0 +1,14 @@
+.container{
+    width: 600px;
+    border: 1px solid black;
+    margin: auto;
+    padding: 5px;
+    overflow: auto;  /*jadi kontenernya akan menyesuakan dari tinggi konten nya */
+}
+
+/* teks mengelilingi gambar */
+img{
+    /* float: left;  */
+     float: right;
+    margin: 5px;
+}

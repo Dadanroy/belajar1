@@ -1,0 +1,39 @@
+/* 
+- properti transform memungkinkan kita dapat memanipulasi format visual dari elemen html.
+- cara penulisan transform : transform: <fungsi>;
+- fungsi transformasi :
+        - SCALE
+        memperbesar/ memperkecil.
+        - ROTATE
+        memutar.
+        - SKEW
+        membuat condong / miring.
+        - TRANSLATE
+        mengubah posisi.
+*/
+
+p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.kotak {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    margin: 50px auto 0;
+    transition: 1s; /* menggunakan transition supaya dapat melihat perbedaannya/ */
+}  
+
+.kotak:hover{    
+    /* transform: scale(2);  */
+   /* transform: rotate(1.5, 2); /* artinya sumbu x akan membesar 1,5 ukuran awal, dan sumbu Y akan membesar 2 kali lipat*/
+     transform: rotate(45deg); /* jadi akan berputar 45% derajat searah jarum jam */
+
+}
+/*  properti transform :
+            scale(angka), slaceX(angka), scaleY(angka), rotateX(Deg),
+            rotateY(deg), skew(deg), skewX(deg), skewY(deg), skew(dag),
+            skewX(deg), skewY(deg), translate(px), translatX(px), translate(px)  .      
+*/
+

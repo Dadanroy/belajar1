@@ -1,0 +1,178 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* ===================================== mulai CSS =============================== */
+body{
+    font: 16px/28px arial, sans-serif; /* ukuranfont,jarakspacy, font1,font2 */
+    background-color: #eaeaea; 
+    color: #333;
+    background-image: url(3.png);
+}
+ .container{  /* container : nama isi content */
+    width: 960px;
+    margin: auto;
+    background-color: white;
+}
+ .header{ /* membuat kotak  elemen header */
+     padding: 20px; /*membuat  area transparan di dalam kotak seukuran 20px */
+     padding-bottom: 10px;
+    
+}
+
+.header .judul {  /* mengatur elemen judul */
+    font-size: 40px;
+    font-weight: bold; /* mengatur elemen judul */ 
+}
+
+.header ul li {
+    display: inline-block; /* membuat elemen menjadi tidak membuat baris baru. */
+    margin-top: 20px; /* membuat area transparan atas di sekitar kotak */ 
+    margin-right: 5px; /* membuat area transparan di setiap elemen li */
+}
+
+.header a{
+    text-decoration: none; /* menghilangkan garis bawah link */
+    color: salmon;
+    padding: 3px; 
+}
+.header a:hover{ /* :hover      : style ketika kursor mouse berada diataas sebuah link / elemen. */
+    background-color: lightskyblue ;
+    color: white; /*mengganti warna tulisan saat hover aktif */
+
+}
+
+.hero{
+    height: 320px; /*mengatur tinggi wadah image */
+    background-image: url(hero.jpg) ;
+    background-size: cover; /*membuat ukuran image menyesuaikan cover */
+    background-position: 0 -230px; /*mengatur posisi image */
+    border-top: 5px solid rgb(66, 47, 47); /* membuat border image atas */
+    border-bottom: 5px solid rgb(92, 50, 50); /* membuat border image bawah */
+
+}
+
+.main { /* membuat kotak content */
+    width: 600px;
+    padding: 20px; /* membuat area transparan di dalam kotak seukuran 20px */
+     box-sizing: border-box; /* supaya lebar tidak berubah */
+     float: left;
+}
+
+.main h2{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.main .penulis {
+    font-size: 11px;
+    margin-top: -5px;
+}
+.main .penulis a{
+    color: salmon;
+    text-decoration: none;
+}
+
+.main p{
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.footer{
+    background-color:#333 ;
+    padding: -10px;
+    
+
+}
+.footer .copy{
+    color: #eaeaea;
+    text-align: center;
+    font-size: 12px;
+
+}
+
+
+
+.cf:after, .cf:before {
+    content: " ";
+    display: table; 
+}
+.cf:after {
+    clear: both;
+}
+.cf {
+    *zoom: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,17 @@
+div{
+    width: 300px;
+    height: 300px;
+    background-color: salmon;
+    border-radius: 100px; /* membuat tumpul di sisi objek */
+    /* border-radius: 50%; dengan memakai persen border radius akan menyesuaikan sendiri */
+    background-image: url(1.jpg);
+    background-repeat: no-repeat; /* no repaeat supaya gambar tidak mengulang/ doble  */
+    background-size:cover ; /* supaya gambar penuh */
+    text-align: center; /* membuat teks di posisi tengah  */
+    line-height: 300px; /*  membuat supaya teks di tengah elemen dengan cara menyesuaikan ukuran elemennya.  */
+
+}
+
+/* 
+hati hati jiga background image  bukan jadi background image untuk div . namun untuk menjadi elemen image di html karena gambar akan keluar di border radiusnya. 
+untuk mengatasi nya yaitu dengan di div nya memakai overflow : hidden.*/

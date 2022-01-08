@@ -1,0 +1,38 @@
+div{
+    width: 300px;
+    height: 300px;
+    background-color: #39b54a;
+    margin: 50px auto;
+    /* box-shadow: 5px 5px 5px black; */
+    /* box-shadow: 5px 5px 5px 5px rgba(0,0,0,.75); /*  : <x-offset> <y-offset> <blur> <spread> <color> */
+    /*   box-shadow: inset 5px 5px 5px 5px rgba(0,0,0,.75);  inset opsional boleh ada boleh tidak */  
+
+       /* membuat multiple shaddow : */
+       box-shadow: 5px 5px 5px rgba(0,0,0,.75), -5px -5px 5px  rgba(0, 0, 255, 0.5);
+
+}
+
+/*  
+MEMBUAT properti BOX-SHADOW :
+
+box-shadow : <inset> <x-offset> <y-offset> <blur> <spread> <color>   //inset opsional.
+
+penjelasan :
+
+- <spread>  : spread / size yaitu elemen opsional dari box shaddow  yang berguna untuk mengatur ukuran dari bayangan/shaddow.
+
+- x-offset : untuk mengatur jarak bayangan pada sumbu horizontal. 
+    nilainya nomerik jadi kalo 10px  maka dia akan bergerak ke kanan sebanyak 10px,
+    jika dikasih -10px maka akan bergerak ke sebelek kiri elemen.
+
+y-offset : secara vertikal
+
+-  rgba untuk mengatur warna 
+
+- <inset> : elemen opsional dari box shaddow yg berguna untuk membuat bayangan di dalam objek
+*/
+
+/*
+multiple shaddow yaitu untuk membuat lebih dari 1 bayangan box shaddow.
+  */
+

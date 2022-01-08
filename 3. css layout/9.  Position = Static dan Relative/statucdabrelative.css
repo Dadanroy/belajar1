@@ -1,0 +1,17 @@
+div{
+    width: 200px;
+    height: 200px;
+}
+.satu{
+    background-color: lightgreen;
+}
+.dua{
+    background-color: violet;
+/*  osition: static; /* default position adalah STATIC */
+    position: relative;
+    top: 30px; /* artinya saya akan menggeser elemen baris 9 dan 11  kebawah sebanyak 30px */
+    left: 50px;
+}
+.tiga{
+    background-color: gold;
+}

@@ -1,0 +1,11 @@
+div{
+    width: 200px;
+    height: 200px;
+    background-color: violet;
+    /* overflow: visible; overvlow default */
+    overflow: auto;
+    /* overflow: visible; konten akan keluar jika tidak cukup. */
+    /* overflow: auto; akan memunculkan scrool jika dibutuhkan. */
+    /* overflow: hidden; konten yang keluar dari parent akan disembunyikan */
+    /* overflow: scroll; akan memunculkan scool meskupin konten cukup. */
+}

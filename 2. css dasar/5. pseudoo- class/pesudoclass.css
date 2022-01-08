@@ -1,0 +1,70 @@
+.hello:link{
+    color: orange;
+}
+
+.hello:hover{
+    color: paleturquoise;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.hello:active{
+    font-style: italic;
+}
+
+.hello:visited{
+    color: red;
+}
+
+ li:first-child a{  /*CSS tolong carikan saya a, yang ada didalam li, yang merupakan anak pertama */
+    color: green;
+}
+
+li:last-child a{  /*CSS tolong carikan saya a, yang ada didalam li, yang merupakan anak terakhir */
+    color: green;
+}
+
+ li:nth-child(5) a{  /*nth-child lebih spesifik,jadi dikasih parameter yang mau dikasih warna */
+    color: green;
+}
+
+p:first-of-type{
+    color: hotpink;
+}
+
+p:last-of-type{
+    color:blueviolet ;
+}
+
+
+
+/* CATATAN  :
+
+KONSEP CHILD SELECTOR :
+-   Child Selector adalah selector di dalam CSS yang penggunaannya di dasarkan pada struktur urutan tag HTML.
+-   Karena tag-tag HTML dapat berisi tag lain, maka struktur HTML dapat diibaratkan dengan ‘pohon keluarga’. 
+    Dimana sebuah tag dapat disebut sebagai ‘induk’ dari tag lain, dan dapat juga disebut sebagai ‘anak’ dari tag lainnya. 
+    Istilah ‘anak’ inilah yang menjadi kata ‘child’ dalam Child Selector CSS.
+-   Contoh pada membuat table menggunakan ul dan li. nah ul didalamnya ada li, nah li itu diibaratkan anaknya, sedangkan ul orangtuanya.
+
+
+
+
+1. CATATAN PESUDO-CLASS YANG BERHUBUNGAN DENGAN LINK
+-   :link       : style default pada sebuah link (a yang memiliki href).
+-   :hover      : style ketika kursor mouse berada diataas sebuah link / elemen.
+-   :active     : style ketika sebuah link di klik (keadaan aktif).
+-   :visited    : style ketika sebuah link sudah pernah dikunjungi sebelumnya.
+ 
+2. CATATAN PESUDO-CLASS YANG BERHUBUNAGN DENGAN POSISI ELEMEN(1)
+-   :first-child    : memilih elemen pertama dari sebuah parent (elemen pembungkusnya).
+-   :last-child     : memilih elem terakhir dari sebuah parent(Elemen pembungkusnya).
+-   :nth-child()    : memilih elemen ke-n dari sebuah parent(elemen pembungkusnya).
+                      n bisa berarti urutan (1),(2), ... atau pola (2n),(3n+2),(4n-1) atau ganjil dan genap (even) dan (odd)
+
+3. CATATAN PSEUDO-CLASS YANG BERHUBUNGAN DENGAN POSISI ELEMEN(2)
+
+-   :first-of-type  : memilih elemen pertama dari sebuah jenis/tipe tag.
+-   :last-of-type   : memilih elemen terakhir dari sebuah jenis / tipe tag.
+
+                      */

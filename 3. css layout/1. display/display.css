@@ -1,0 +1,11 @@
+/* 1. inline hasil output akan vertical atau ke kanan, tidak membuat baris baru */
+
+.info{
+    font-size: 40px;
+    color: crimson;
+}
+
+
+.blog{
+    background-color: blue;
+}

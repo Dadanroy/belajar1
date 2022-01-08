@@ -1,0 +1,62 @@
+div{
+    width: 600px;
+    height: 300px;
+    margin: 50px auto;
+    /* background-image: linear-gradient(red, green); /* 2 warna gradiant */
+    /* background-image: linear-gradient(red,#f0d606, green); /* 3 warna gradiant */
+    /* background-image: linear-gradient(red, #f0d606, rgba(255,255,0,1), green); /* 4 warna menggunakan rgba */
+
+    /*  MENGARAHKAN WARNA MENGGUNAKAN SUDUT : */
+    /* background-image: linear-gradient(90deg, red, green); /* deg : derajat */
+
+    /*  MENGARAHKAN WARNA MENGGUNAKAN ARAH : */
+    /* background-image: linear-gradient(to left, red, green);  */
+
+    /* COLOR STOP */
+    background-image: linear-gradient(to right, red 63%, green 80%);
+
+}
+
+/* 
+- linear gradient hanya bisa digunakan menggunakan value background-image, tidak bisa pakai background colore.
+
+=================
+
+SINTAKS SEDERHANA LINEAR-GRADIANT :
+
+background-image: linear-gradiant(warna awal, warna akhir); 
+
+( jika ingin ditambahkan warna nya tingal dikasih koma diteruskan warna seterusnya )
+
+================= 
+
+MULTIPLE COLOR :
+
+background: linear-gradient(warna1, warna2, ... , warna-n);
+
+================= 
+MENGARAHKAN WARNA GRADASI MENGGUNAKAN SUDUT:
+
+background : linear-gradient( sudut, warna awal, warna akhir);
+
+================= 
+
+MENGARAHKAN WARNA MENGGUNAKAN ARAH :
+value arah :
+- to bottom
+- to top
+- to left
+- to right
+-to left top
+- to left bottom
+- to right top
+-to right bottom
+
+================= 
+
+COLOR STOP  : 
+COLOR STOP  :MEMBUAT GRADASI DENGAN BOBOT WARNA YG BISA DI COSTUM
+
+background-image: linear-gradient(to right, red 63%, green 80%);
+
+*/
